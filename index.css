@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background: url('https://www.imgcorporations.com/images/bg-img.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+  }
+  
+  .login-container {
+    backdrop-filter: blur(10px);
+    background-color: rgba(212, 206, 206, 0.5);
+    padding: 4rem;
+    border-radius: 8px;
+  }
+  
+  .login-box {
+    max-width: 350px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    text-align: left;
+  }
+  
+  input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .options label, .options a {
+    font-size: 0.9rem;
+    color: #ddd;
+  }
+  
+  button {
+    width: 100%;
+    padding: 0.7rem;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .register-text {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .register-text a {
+    color: #ddd;
+    text-decoration: none;
+  }
+  
